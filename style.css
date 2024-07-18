@@ -96,7 +96,7 @@ div>div>h2{
 .section_child{
     border:2px solid rgb(248, 248, 243);
     width: 33%;
-    height: 30%;
+    height: 90%;
     min-height: 500px;
     border-radius: 5px;
 }
