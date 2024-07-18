@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/952/536/1006/winter-4k-pc-desktop-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding-inline: 50px;
+    width: 100vw;
+    height: 100vh;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    
+#count_div{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 100px;
+}
+.count-child{
+    width: 100px;
+    
+}
+#count{
+    padding:20px;
+    font-weight: 700;
+    font-size: 20px;
+    width: 70px;
+    height: 70px;
+    margin-inline: auto;
+    opacity:80%;
+    box-shadow: 0px 0px 20px rgb(21, 20, 20);
+}   
+    
+#hedh1{
+    color:none;
+    margin-top: 30px;
+    font-size: 50px;
+    -webkit-text-stroke: 1px rgb(250, 246, 251);
+    text-shadow: 3px 0px 10px rgb(239, 116, 212);
+    font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: bold;
+}
+
+#count_p{
+    font-weight: bold;
+    padding: 10px;
+    text-shadow: 0px 0px 10px rgb(239, 116, 212);
+    color: rgb(245, 243, 243);
+}
+
+#hedbtn{
+    background-color: rgb(21, 20, 20);
+    opacity: 60%;
+    color: rgb(250, 246, 251);
+    text-shadow: 3px 0px 10px rgb(239, 116, 212);
+    font-size: large;
+    font-weight: 550;
+    padding:10px;
+    height: 70px;
+    border-radius: 20px;
+    margin-top: 30px;
+    border:none;
+    box-shadow: none;
+    font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: bold;
+}
+#sections{
+   display: flex;
+   justify-content: space-around;
+   margin-top: 50px;
+   margin-top:  50px;
+   width: 100%;
+   height: 90%;
+}
+div>div>h2{
+    color: rgb(245, 224, 240);
+    text-align: center;
+    border-bottom:2px solid rgb(238, 238, 235) ;
+}
+.section_child{
+    border:2px solid rgb(248, 248, 243);
+    width: 33%;
+    height: 80%;
+    border-radius: 5px;
+}
+
+.card{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    
+}
+select option{
+    color:wheat;
+}
+#count{
+    color:rgb(246, 242, 242);
+}
+.cardContainer{
+    color:rgb(161, 160, 160);
+    background-color: rgb(21, 20, 20);
+    padding: 10px;
+    border-radius: 25px;
+    text-align: center;
+    width:80%;
+    min-height: 50px;
+    margin: 20px auto;
+    
+    opacity:75%
+}

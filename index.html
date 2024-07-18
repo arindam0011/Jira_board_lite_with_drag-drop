@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jira Board</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <header id="header">
+    <button id="hedbtn">Add Task <i class="fa-solid fa-plus"></i></button>
+    <div id="count_div">
+      <div id="count_child_1" class="count-child">
+        <p id="count_p">Todo</p>
+        <div id="count" class="td"></div>
+      </div>
+      <div id="count_child_2" class="count-child">
+        <p id="count_p">Progress</p>
+        <div id="count" class="pro"></div>
+      </div>
+      <div id="count_child_3" class="count-child">
+        <p id="count_p">Done</p>
+        <div id="count"class="dn"></div>
+      </div>
+
+    </div>
+    <h1 id="hedh1">Jira Board Lite</h1>
+  </header>
+    
+  <div id="sections">
+    <div id="Todo" class="section_child">
+     <h2>Todo</h2>
+    </div>
+    <div id="Progress" class="section_child">
+        <h2>Progress</h2>
+    </div>
+    <div id="Done" class="section_child">
+        <h2>Done</h2>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
