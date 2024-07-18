@@ -46,7 +46,7 @@ body{
 #hedh1{
     color:none;
     margin-top: 30px;
-    font-size: 50px;
+    font-size: 30px;
     -webkit-text-stroke: 1px rgb(250, 246, 251);
     text-shadow: 3px 0px 10px rgb(239, 116, 212);
     font-family: "Orbitron", sans-serif;
@@ -89,14 +89,15 @@ body{
    height: 90%;
 }
 div>div>h2{
-    color: rgb(245, 224, 240);
+    color: rgb(234, 188, 224);
     text-align: center;
     border-bottom:2px solid rgb(238, 238, 235) ;
 }
 .section_child{
     border:2px solid rgb(248, 248, 243);
     width: 33%;
-    height: 80%;
+    height: 30%;
+    min-height: 500px;
     border-radius: 5px;
 }
 
@@ -104,16 +105,6 @@ div>div>h2{
     font-family: "Poppins", sans-serif;
     font-weight: 300;
     font-style: normal;
-    
-}
-select option{
-    color:wheat;
-}
-#count{
-    color:rgb(246, 242, 242);
-}
-.cardContainer{
-    color:rgb(161, 160, 160);
     background-color: rgb(21, 20, 20);
     padding: 10px;
     border-radius: 25px;
@@ -121,6 +112,12 @@ select option{
     width:80%;
     min-height: 50px;
     margin: 20px auto;
-    
-    opacity:75%
+    color:rgb(161, 160, 160);
+    opacity: 75%;
+}
+select option{
+    color:wheat;
+}
+#count{
+    color:rgb(246, 242, 242);
 }
